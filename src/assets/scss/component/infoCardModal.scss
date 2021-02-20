@@ -1,0 +1,67 @@
+.modal-dialog {
+  max-width: 606px;
+  .left__pane {
+    .left__pane-poster {
+      img {
+        width: 174px;
+        object-fit: cover;
+      }
+    }
+  }
+  .right__pane {
+    .right__pane-title {
+      h4 {
+        font-style: normal;
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 31px;
+        color: #0b0303;
+      }
+    }
+    .right__pane-plot {
+      margin-top: 15px;
+      p {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 28px;
+        color: #0b0303;
+      }
+    }
+    .right__pane-list {
+      margin-top: 10px;
+      p {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        color: #0b0303;
+      }
+    }
+    .right__pane-time-genre {
+      margin-top: 22px;
+      p {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        color: #0b0303;
+        margin-bottom: 0;
+        margin-right: 45px;
+      }
+      .genre {
+        span {
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 17px;
+          color: #0b0303;
+        }
+        span:not(:last-child) {
+          border-right: 1px solid #d8d8d8;
+          padding-right: 6px;
+        }
+      }
+    }
+  }
+}

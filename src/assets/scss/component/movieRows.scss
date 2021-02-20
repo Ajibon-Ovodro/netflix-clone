@@ -1,0 +1,62 @@
+.row {
+  color: white;
+  margin-left: 20px;
+}
+
+.row__poster {
+  object-fit: contain;
+  width: 100%;
+  max-height: 123px;
+  transition: transform 450ms;
+}
+
+.row__posters {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 20px;
+}
+
+.row__posters::-webkit-scrollbar {
+  display: none;
+}
+
+.row__poster:hover {
+  transform: scale(1.05);
+}
+
+.row__posterLarge {
+  max-height: 250px;
+  object-fit: cover;
+}
+
+.row__posterLarge:hover {
+  transform: scale(1.05);
+}
+.row__title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #0b0303;
+}
+.row__all {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  color: #757575;
+}
+.bookmark {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 9;
+}
+.movie {
+  position: relative;
+}
+.bookmark.checked {
+  color: #ed2517;
+}

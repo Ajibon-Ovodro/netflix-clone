@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+}
+
+.App {
+  background-color: #fff;
+}
+
+.container-fluid {
+  max-width: 95%;
+}
+
+@import "component/movieRows.scss";
+@import "component/header.scss";
+@import "component/infoCardModal.scss";
+@import "component/banner.scss";
+@import "component/footer.scss";
+@import "component/login.scss";

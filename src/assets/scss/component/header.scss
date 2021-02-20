@@ -1,0 +1,30 @@
+.header .navbar {
+  padding: 9px 48px;
+}
+
+.header .navbar .navbar-brand {
+  margin-right: 50px;
+}
+
+.header ul li {
+  font-family: SF Pro Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  margin-right: 27px;
+}
+.logout {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  border-radius: 50%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  i {
+    color: white;
+  }
+}
