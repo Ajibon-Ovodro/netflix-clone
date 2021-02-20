@@ -1,6 +1,5 @@
-# Netflix Clone
+# [Netflix Clone](https://netflix-clone-a9b76.web.app/)
 
-![Netflix Clone Demo](https://netflix-clone-a9b76.web.app/)
 
 ## Available Scripts
 
